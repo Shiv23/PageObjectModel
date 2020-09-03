@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testng Framework]">
+  <listeners>
+    <listener class-name="com.extent.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="CRM App Test Cases(failed)">
+    <classes>
+      <class name="com.qa.tests.ContactPageTest">
+        <methods>
+          <include name="selectSingleContactsTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.ContactPageTest -->
+    </classes>
+  </test> <!-- CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [Testng Framework] -->
