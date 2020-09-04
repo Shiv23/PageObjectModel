@@ -32,6 +32,8 @@ public class HomePageTest extends TestBase {
     }
 
 
+    
+
     @Test(priority=1)
     public void verifyHomePageTitleTest(){
         String homePageTitle = homePage.verifyHomePageTitle();
