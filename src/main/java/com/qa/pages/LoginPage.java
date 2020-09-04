@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends TestBase {
 
+    
     @FindBy(name="username")
     WebElement username;
 
