@@ -58,13 +58,13 @@ public class ContactPageTest extends TestBase {
 
     @Test(priority = 2)
     public void selectSingleContactsTest() {
-        contactsPage.selectContactsByName("Arun Dhonde");
+        //contactsPage.selectContactsByName("Arun Dhonde");
     }
 
     @Test(priority = 3)
     public void selectMultipleContactsTest() {
-        contactsPage.selectContactsByName("AARYA1 LST2");
-        contactsPage.selectContactsByName("4556635678 ");
+        //contactsPage.selectContactsByName("AARYA1 LST2");
+        //contactsPage.selectContactsByName("4556635678 ");
 
     }
 
